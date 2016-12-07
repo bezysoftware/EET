@@ -1,0 +1,36 @@
+<s:Envelope xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" u:Id="BinaryToken1" xmlns:wse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">MIID6zCCAtOgAwIBAgIEAQAAAzANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQGEwJDWjEaMBgGA1UEAwwRR0ZSIEVFVCB0ZXN0IENBIDExLTArBgNVBAoMJEdlbmVyw6FsbsOtIGZpbmFuxI1uw60gxZllZGl0ZWxzdHbDrTAeFw0xNjA1MTkxMjQ1MDJaFw0xODA1MTkxMjQ1MDJaMFMxCzAJBgNVBAYTAkNaMRUwEwYDVQQDDAxDWjEyMTIxMjEyMTgxFzAVBgNVBAoMDk9zb2JhIEZ5emlja8OhMRQwEgYDVQQFEwtUMDAwMDAwMDAwMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMt0eW9n+RB0PSawKSJbtAg3j7e1I5p7P9OvEj0n9raEMI496Zuw7s4VaE8JEX4iowjWhlPIOPljDiAXX6HgZzH4PDps0rFm388KZxj7Ek/ZLyyh5jRovc0Yccfgm3i2huBepk7ZtifZXOZzDEDT0CZsxRpypZJp9PK6SOdj2zPIc11F+prwsGQCDAZsRtama5/W5qn2YUWjjk+4c5Zu3TcknC7bcp1dg7RJ9yMtNiYPY7LNV3uWQhAXZVFpmOpbfYwT1F8H3/UrWDSJ5zrHshICPreMyZ0skU9SUANQ8QQKE6lSlgSs59YaeEmCyGtpttVjN+iR/L9M9FRtq3ZhZz0CAwEAAaOBwTCBvjAeBgNVHREEFzAVgRNlcG9kcG9yYUBmcy5tZmNyLmN6MB8GA1UdIwQYMBaAFHpa/A3L7DamDdppGWaMm++Cw6k0MB0GA1UdDgQWBBQbyTbuGBZdorOZZm7usMraGAJ2STBMBgNVHSAERTBDMEEGCmCGSAFlAwIBMAIwMzAxBggrBgEFBQcCAjAlGiNUZW50byBjZXJ0aWZpa2F0IEpFIFBPVVpFIFRFU1RPVkFDSTAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAC3L8Bm7ZlWui9xWrjM00SlvCokpc2ldGCxNvj4hANaISoLRdPVZAPeLd1X4KsRyxOIazR5oq3EKVZV1ZP3sCF4QFL+SqurkPiBbIrrbABDLyDpf/8DIfyA1x/+zNpN9ul9j9Ca1739P4L1x3wpQcYhEuvSrTiLztndlJb69LXgYZOFfqcBSRedRuMwRdtux9OWkkZjrd9wNHTCDOIfOPaPRRoq5IPHP32shsXaTLvhsT7ktvR5Fr/SQ8CkWq3U6tdcOQRN35ZWyYSyOd5/vkJqK773R/gAeBUE80gpLMdqgVj8HaD7RlHrYyYJEVUI9gbctTfUIJW/9LZ3K78JLXXg=</wse:BinarySecurityToken>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="#_1">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>wfK9VCdtwFX/ulal/mUyTwWZg3u5us3aNjEUOFmzgDE=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>to9462asvq+3BAN2Z/i6wfgvqyqKr61crCfIEUfHqjN49khe1GQ3p+z3PWoZMZTqC5qnAvDjaW+xEoCiiqE6pAB3Fe/EJGd0BbeSNWrlhyUbv13e1UpThGFbn0bvufOSRRyuxxnqGAkRMVAJPFBtcSOUUPcqAc8MmeMbDtviZBg2w0jc91ZybHWakYtiTikuwnnsarUvHkXUsqG5rSlD4tM8zaAnKHm7sNiKNwE5jIUGmk4aCxNFXSRogbQIzEJ+aqQhcq/1gp5B5Z/Pkv/9fzatf+1gYOUta0LEAaNVWfDdmxpYVhedhajpxg+jHb/hEoKikoc5snDAYlCay9W29g==</SignatureValue>
+        <KeyInfo>
+          <wse:SecurityTokenReference xmlns:wse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wse:Reference URI="#BinaryToken1" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509" />
+          </wse:SecurityTokenReference>
+        </KeyInfo>
+      </Signature>
+    </wsse:Security>
+  </s:Header>
+  <s:Body u:Id="_1">
+    <Trzba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fs.mfcr.cz/eet/schema/v3">
+      <Hlavicka uuid_zpravy="56143220-0e8c-47fc-8980-75b673e2faf1" dat_odesl="2016-12-05T15:41:12+01:00" prvni_zaslani="true" overeni="true" />
+      <Data dic_popl="CZ68710712" id_provoz="356" id_pokl="POKLADNA_1" porad_cis="PD2016/8-22" dat_trzby="2016-12-05T15:41:12+01:00" celk_trzba="121" zakl_dan1="100" dan1="21" rezim="0" />
+      <KontrolniKody>
+        <pkp digest="SHA256" cipher="RSA2048" encoding="base64" xmlns="http://fs.mfcr.cz/eet/schema/v3">AU7b5OXs+HhznB+QxeYJ7LHosOQeXm38MrK0i04Z9WQ7c5/d3Rw1AHf1zc8C+hqMxITq9nFBlbQ+GgPunpgA4opkmpjFj+qvjDBXg8cTGLZ7yFESdIbPpTSgbTrSUhO45/aNuteXPjHHFi/45RzwcL/OjAozJoFjpHwQ1HpVmY4h2zv+S57PqoIwxCBHqULgcbzTSPhyVNBcpw2zMchaMayRmAMQY57hhKclYM1Ia5Ik5Xcw8Gaig1jwqNva8jm8ZaXMQgFaDBLm12Ef7lwqDITvXriy1WXdk70rp+Lm3mOX1wBW02so1/5apKF9Kp2xnYqlP7dcFvr9yTINJDRgDA==</pkp>
+        <bkp digest="SHA1" encoding="base16" xmlns="http://fs.mfcr.cz/eet/schema/v3">8D973B1F-82CE6BDC-F95EAC91-950E7275-5C26B878</bkp>
+      </KontrolniKody>
+    </Trzba>
+  </s:Body>
+</s:Envelope>

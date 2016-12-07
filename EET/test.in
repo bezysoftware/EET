@@ -1,0 +1,12 @@
+{
+  "ReceiptNumber": "123456",
+  "ReceiptTime": "2016-12-06T15:00:00",
+  "TotalAmount": 100.0,
+  "Tax1": 0.0,
+  "Tax2": 0.0,
+  "Tax3": 0.0,
+  "AmountForTax1": 0.0,
+  "AmountForTax2": 0.0,
+  "AmountForTax3": 0.0,
+  "AmountForNoTax": 0.0
+}

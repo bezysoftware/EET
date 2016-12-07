@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EETTestClient2", "EETTestClient2\EETTestClient2.csproj", "{44A93DA2-8037-4291-AC63-ABED6AEBD29D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EETLibrary", "EETLibrary\EETLibrary.csproj", "{1965F7BB-7962-460F-9BF0-925D97792BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EET", "EET\EET.csproj", "{4ED12735-6229-4EE2-A99C-8369C3F2EB1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44A93DA2-8037-4291-AC63-ABED6AEBD29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A93DA2-8037-4291-AC63-ABED6AEBD29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A93DA2-8037-4291-AC63-ABED6AEBD29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A93DA2-8037-4291-AC63-ABED6AEBD29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1965F7BB-7962-460F-9BF0-925D97792BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1965F7BB-7962-460F-9BF0-925D97792BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1965F7BB-7962-460F-9BF0-925D97792BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1965F7BB-7962-460F-9BF0-925D97792BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED12735-6229-4EE2-A99C-8369C3F2EB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED12735-6229-4EE2-A99C-8369C3F2EB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED12735-6229-4EE2-A99C-8369C3F2EB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED12735-6229-4EE2-A99C-8369C3F2EB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Security.Cryptography.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
