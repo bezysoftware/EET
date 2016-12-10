@@ -8,5 +8,6 @@
   "AmountForTax1": 0.0,
   "AmountForTax2": 0.0,
   "AmountForTax3": 0.0,
-  "AmountForNoTax": 0.0
+  "AmountForNoTax": 0.0,
+  "RepeatedAttempt": false
 }

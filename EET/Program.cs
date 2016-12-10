@@ -140,7 +140,7 @@
             helper.Data.dan2Specified = input.Tax2 != 0;
             helper.Data.dan3Specified = input.Tax3 != 0;
 
-            helper.Data.zakl_dan1Specified = input.AmountForTax1 != 0;
+            helper.Data.zakl_dan1Specified = input.AmountForTax1 != 0;  
             helper.Data.zakl_dan2Specified = input.AmountForTax2 != 0;
             helper.Data.zakl_dan3Specified = input.AmountForTax3 != 0;
             helper.Data.zakl_nepodl_dphSpecified = input.AmountForNoTax != 0;
@@ -153,6 +153,8 @@
             helper.Data.dan1 = helper.FormatMoney(input.Tax1);
             helper.Data.dan2 = helper.FormatMoney(input.Tax2);
             helper.Data.dan3 = helper.FormatMoney(input.Tax3);
+
+            helper.Hlavicka.prvni_zaslani = !input.RepeatedAttempt;
         }
 
         private static void InitializeHelper()

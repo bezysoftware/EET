@@ -23,5 +23,7 @@
         public decimal AmountForTax3 { get; set; }
 
         public decimal AmountForNoTax { get; set; }
+
+        public bool RepeatedAttempt { get; set; }
     }
 }
