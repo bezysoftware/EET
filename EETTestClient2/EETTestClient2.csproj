@@ -77,13 +77,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="01000003.p12">
+    <None Include="00000019.p12">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="01000004.p12">
+    <None Include="1212121218.p12">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="01000005.p12">
+    <None Include="683555118.p12">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
